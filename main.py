@@ -157,7 +157,7 @@ class Game(Widget):
         self.msg.texture_update()
         self.msg.size = self.msg.texture_size
         self.msg.pos = (w / 2 - self.msg.width / 2, h * 0.6)
-        self.msg.opacity = 1 if self.over else 0
+        self.msg.opacity = 1 if self.over else 0 
 
 
 class DinoApp(App):
