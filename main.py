@@ -1,7 +1,7 @@
 from random import random, uniform, randint
 
 from kivy.app import App
-from kivy.clock import Clock
+from kivy.clock import Clock 
 from kivy.core.window import Window
 from kivy.graphics import Color, Rectangle
 from kivy.metrics import dp
